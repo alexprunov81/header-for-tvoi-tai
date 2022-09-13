@@ -319,6 +319,10 @@ a:hover {
     transform: rotate(45deg)
 }
 
+.burger_active .burger__line_second {
+    opacity: 0;
+}
+
 .burger_active .burger__line_third {
     bottom: calc(50% - 1px);
     transform: rotate(-45deg)
@@ -338,6 +342,9 @@ a:hover {
     overflow-y: auto
 }
 
+.mobile-menu_active {
+    transform: translateX(0);
+}
 .mobile-menu-content {
     display: none
 }
