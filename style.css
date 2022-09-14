@@ -247,15 +247,15 @@ a:hover {
 .btn {
     display: inline-flex;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 16px;
     text-transform: uppercase;
     border-radius: 2px;
-    height: 51px;
-    width: 211px;
+    /*height: 51px;*/
+    /*width: 211px;*/
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
+    /*padding: 24px 46px;*/
     transition: all .25s ease
 }
 
@@ -442,7 +442,7 @@ a:hover {
 }
 
 .header__button .btn {
-    height: 41px
+    padding: 24px 46px;
 }
 
 .header-logo img {
