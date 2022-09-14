@@ -442,9 +442,8 @@ a:hover {
 }
 
 .header__button .btn {
-    font-size: 11px;
+    font-size: 17px;
     height: 64px;
-    /*padding: 24px 46px;*/
 }
 
 .header-logo img {
