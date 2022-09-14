@@ -768,6 +768,11 @@ a:hover {
         font-size: 14px;
         padding: 5px 0
     }
+    
+    .header__button .btn {
+        font-size: 14px;
+        height: 54px;
+    }
 }
 
 @media (max-width:991px) {
