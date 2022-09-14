@@ -508,6 +508,11 @@ a:hover {
     z-index: 100
 }
 
+.dropdown_active {
+    opacity: 1;
+    visibility: visible;
+}
+
 .dropdown-menu__item {
     font-weight: 400;
     font-size: 16px;
