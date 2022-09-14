@@ -330,7 +330,7 @@ a:hover {
 
 .mobile-menu {
     position: fixed;
-    top: 137px;
+    top: 140px;
     left: 0;
     z-index: 10;
     transition: all .25s ease;
@@ -511,7 +511,7 @@ a:hover {
 .dropdown-menu__item {
     font-weight: 400;
     font-size: 16px;
-    text-transform: none;
+    text-transform: uppercase;
     list-style-type: none;
     padding: 10px 0
 }
@@ -533,25 +533,24 @@ a:hover {
 }
 
 .dropdown-section {
-    padding: 25px 60px
+    padding: 25px 0 25px 50px;
 }
 
 .dropdown-section_fiz {
-    flex: 0 0 66.66666%;
-    max-width: 66.66666%;
-    background: #f2f4f7;
+    width: 100%;
+    background: #F8F8F8;
     border-radius: 2px 0 0 2px
 }
 
 .dropdown-section_fiz .dropdown-menu__list {
     display: flex;
-    flex-wrap: wrap
+    flex-direction: column;
 }
 
-.dropdown-section_fiz .dropdown-menu__item {
-    flex: 0 0 50%;
-    max-width: 50%
-}
+/*.dropdown-section_fiz .dropdown-menu__item {*/
+/*    flex: 0 0 50%;*/
+/*    max-width: 50%*/
+/*}*/
 
 .dropdown-section_jur {
     flex: 0 0 33.33333%;
@@ -660,9 +659,9 @@ a:hover {
 }
 
 @media (min-width:992px) {
-    .dropdown-container {
-        width: 930px
-    }
+    /*.dropdown-container {*/
+    /*    width: 930px*/
+    /*}*/
 
     .dropdown-menu {
         left: -240px
@@ -672,12 +671,13 @@ a:hover {
     .dropdown-cities__search {
         display: none
     }
+
 }
 
 @media (min-width:1200px) {
-    .dropdown-container {
-        width: 1110px
-    }
+    /*.dropdown-container {*/
+    /*    width: 1110px*/
+    /*}*/
 
     .dropdown-menu {
         left: -385px
@@ -686,12 +686,12 @@ a:hover {
 
 @media (min-width:1350px) {
     .dropdown-container {
-        width: 1300px
+        width: 100%
     }
 
     .dropdown-menu {
-        left: -433px;
-        top: 71px
+        left: -50px;
+        width: 248px;
     }
 }
 .location__visible {
@@ -719,7 +719,8 @@ a:hover {
 @media (max-width:1349px) {
 
     .dropdown-menu__item {
-        font-size: 15px
+        font-size: 17px;
+        text-transform: uppercase;
     }
 }
 
@@ -770,11 +771,15 @@ a:hover {
     }
 
     .dropdown-cities {
-        top: 76px;
+        top: 190px;
         right: 0;
         left: auto;
         width: 0;
         height: calc(100vh - 76px)
+    }
+
+    .dropdown-cities.dropdown_active {
+        width: 100%;
     }
 
     .top .pl-custom {
@@ -842,8 +847,7 @@ a:hover {
     }
 
     .dropdown-cities {
-        top: 61.6px;
-        height: calc(100vh - 61.6px)
+        top: 140px;
     }
 }
 
@@ -861,8 +865,7 @@ a:hover {
     }
 
     .dropdown-cities {
-        top: 52.5px;
-        height: calc(100vh - 52.5px)
+        top: 125px;
     }
 
     .dropdown-cities__item {

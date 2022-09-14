@@ -1,7 +1,12 @@
-const mobileMenu = document.querySelector('.mobile-menu')
-const burger = document.querySelector('.burger')
-burger.addEventListener('click', e => {
-    mobileMenu.classList.toggle('mobile-menu_active')
-    burger.classList.toggle('burger_active')
+$(document).ready(function () {
+    $('.burger').click(function () {
+        $('.mobile-menu').toggleClass('mobile-menu_active')
+        $('.burger').toggleClass('burger_active')
+    })
+    $('.location__visible').click(function () {
+        $('.dropdown-cities').addClass('dropdown_active')
+    })
+    $('.dropdown-cities__close').click(function(){
+        $('.dropdown-cities').removeClass('dropdown_active')
+    })
 })
-
