@@ -9,4 +9,5 @@ $(document).ready(function () {
     $('.dropdown-cities__close').click(function(){
         $('.dropdown-cities').removeClass('dropdown_active')
     })
+
 })
