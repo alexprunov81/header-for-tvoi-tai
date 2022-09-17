@@ -289,14 +289,15 @@ a:hover {
     width: 28px;
     height: 20px;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: 15px;
 }
 
 .burger__line {
     display: block;
     width: 100%;
     height: 2px;
-    background: #C7A876;
+    background: #3D1152;
     position: absolute;
     left: 0;
     transform: rotate(0);
@@ -429,11 +430,37 @@ a:hover {
 }
 
 .top-contacts__soc a {
-    margin-left: 20px
+    margin-left: 20px;
+    background-color: #fff;
+
+}
+.fa{
+    background-color: #fff;
+    color: #000;
+}
+
+.top-contacts__soc {
+    display: flex;
+    align-items: center;
 }
 
 .top-contacts__soc a:hover {
-    text-decoration: none
+    display: flex;
+    align-items: center;
+}
+
+.top-contacts__soc a {
+    display: flex;
+    align-items: center;
+}
+
+.top-contacts__soc a svg{
+    fill: #879098;
+    transition: fill .3s ease-in-out;
+}
+
+.top-contacts__soc a svg:hover{
+    fill: #3D1152;
 }
 
 .header {
@@ -874,6 +901,10 @@ a:hover {
     .dropdown-cities {
         top: 140px;
     }
+
+    .burger {
+        margin-left: 22px;
+    }
 }
 
 @media (max-width:374px) {
@@ -895,6 +926,10 @@ a:hover {
 
     .dropdown-cities__item {
         padding: 3px 10px 3px 25px
+    }
+
+    .burger {
+        margin-left: 0;
     }
 }
 
