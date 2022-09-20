@@ -189,7 +189,7 @@ button:not(:disabled) {
 
     .pl-custom {
         display: flex;
-        align-items: center;
+        align-items: end;
     }
 
     .top-contacts__phone {
@@ -301,7 +301,7 @@ a:hover {
     height: 20px;
     position: relative;
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .burger__line {
@@ -492,7 +492,7 @@ a:hover {
 .header__button {
     font-size: calc(10px + .3vw);
     /*padding-top: calc(6px + .7vw);*/
-    padding: calc(6px + .7vw)  calc(11px + 2vw);
+    padding: calc(6px + .7vw)  calc(7px + 1.2vw);
     /*padding-right: calc(11px + 1.8vw);*/
     /*padding-left: calc(11px + 1.8vw);*/
     background: #C7A876;
@@ -796,11 +796,6 @@ a:hover {
     }
 }
 
-@media (max-width: 1349px) and (min-width: 575px) {
-    /*.header-logo img {*/
-    /*    height: 51px*/
-    /*}*/
-}
 
 @media (max-width: 1199px) {
     .top {
@@ -809,7 +804,7 @@ a:hover {
 
     .nav__item {
         height: 61px;
-        font-size: 12px;
+        font-size: calc(8px + .3vw);
     }
 
     .nav {
@@ -825,6 +820,12 @@ a:hover {
         padding: 5px 0
     }
 
+
+    .header__button {
+        font-size: calc(8px + .2vw);
+        /*padding-top: calc(6px + .7vw);*/
+        padding: calc(6px + .6vw)  calc(7px + 1vw);
+    }
     /*.header__button .btn {*/
     /*    font-size: 14px;*/
     /*    height: 54px;*/
@@ -946,7 +947,7 @@ a:hover {
     }
 
     .burger {
-        margin-left: 22px;
+        margin-left: 13px;
     }
 
     .top .pl-custom {
