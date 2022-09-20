@@ -1008,7 +1008,12 @@ a:hover {
 
 @media (max-width: 575px) {
     .location__visible span {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .mobile.top-contacts__soc a svg{
+        width: 14px;
+        height: 14px;
     }
 }
 
