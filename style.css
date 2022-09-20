@@ -186,6 +186,15 @@ button:not(:disabled) {
     .d-sm-inline-block {
         display: inline-block !important
     }
+
+    .pl-custom {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-contacts__phone {
+         border-bottom: 1px dashed;
+    }
 }
 
 @media (min-width: 992px) {
@@ -496,7 +505,7 @@ a:hover {
 
 .header-logo img {
     max-width: 100%;
-    height: calc(41px + 3.3vw);
+    height: calc(31px + 3.2vw);
 
 }
 
@@ -888,7 +897,7 @@ a:hover {
     }
 
     .top-contacts__phone {
-        font-size: 14px
+        font-size: 12px
     }
 
     .top .pl-custom {
@@ -905,6 +914,10 @@ a:hover {
 
     .header {
         top: 90px
+    }
+
+    .pr-custom {
+        padding-left: 0;
     }
 
     /*.header__button {*/
@@ -1020,7 +1033,7 @@ a:hover {
 
 @media (max-width: 575px) {
     .location__visible span {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .mobile.top-contacts__soc a svg{
