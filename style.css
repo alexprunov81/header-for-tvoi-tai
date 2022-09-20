@@ -768,7 +768,8 @@ a:hover {
 
 .location__visible {
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: end;
 }
 
 .location__visible img {
